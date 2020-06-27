@@ -1,0 +1,20 @@
+body{
+  background-color: #282828;
+  color: #ffffff;
+  font-family: monospace;
+}
+#list-container{
+  max-height: 40%;
+  min-height: 30%;
+  overflow: scroll;
+  background-color: #484848;
+  border: #909090 2px solid;
+  width: 250px;
+  margin-bottom: 20px;
+}
+li{
+  float: left;
+}
+li:hover{
+  color: #ff0000;
+}
